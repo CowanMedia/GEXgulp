@@ -1,8 +1,10 @@
+'use strict';
+
 const gulp = require('gulp');
-var autoprefixer = require('gulp-autoprefixer');
+const autoprefixer = require('gulp-autoprefixer');
 const imagemin = require('gulp-imagemin');
 const uglify = require('gulp-uglify');
-// const cssMin = require('gulp-minify-css');
+
 const csso = require('gulp-csso');
 const concat = require('gulp-concat');
 const nunjucksRender = require('gulp-nunjucks-render');
