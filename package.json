@@ -2,13 +2,7 @@
   "name": "gexgulp",
   "version": "1.0.0",
   "description": "Example using Gulp",
-  "main": "index.js",
-  "scripts": {
-    // "test": "echo \"Error: no test specified\" && exit 1",
-    // "gulp": "/node_modules/.bin/gulp",
-    // "build": "gulp build",
-    "start": "gulp build"
-  },
+
   "author": "mjcowan",
   "license": "ISC",
   "devDependencies": {
