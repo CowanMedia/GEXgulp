@@ -1,4 +1,4 @@
 # global context
 [build]
   publish = "public"
-  command = "gulp build"
+  command = "npm gulp build"

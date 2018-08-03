@@ -84,7 +84,7 @@ gulp.task('styles', function () {
     .pipe(gulp.dest('dist'))
   });
   
-  gulp.task('default', ['copyHtml', 'imageMin', 'styles', 'scripts', 'nunjucks']);
+  gulp.task('build', ['copyHtml', 'imageMin', 'styles', 'scripts', 'nunjucks']);
   
   gulp.task('watch', function(){
     gulp.watch('src/assets/js/*.js', ['scripts']);
