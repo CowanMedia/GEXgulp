@@ -1,1 +1,0 @@
-var options={valueNames:["number","name","product"]},doclist=new List("doclist",options),techlist=new List("techlist",options),proclist=new List("proclist",options);

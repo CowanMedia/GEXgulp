@@ -1,1 +1,0 @@
-var options={valueNames:["number","name","type"]},priceList=new List("pricelist",options);
