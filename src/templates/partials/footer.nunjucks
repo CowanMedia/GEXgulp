@@ -1,0 +1,130 @@
+<!--     *********    LARGE FOOTER     *********      -->
+    <footer class="footer footer-white footer-big">
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                  <div class="col-md-2">
+                      <h5>About Us</h5>
+                      <p>GEX is the industry’s single source for all your dosimetry-related needs. You can expect the highest quality products and unsurpassed customer service.</p>
+                  </div>
+                    <div class="col-md-2">
+                        <h5>Company</h5>
+                        <ul class="links-vertical">
+                            <li>
+                                <a href="#pablo">
+                                    Who We Are
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    What We Do
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    Quality
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    Events | Trainings
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>Products</h5>
+                        <ul class="links-vertical">
+                            <li>
+                                <a href="#pablo">
+                                    Dosimetry Systems
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    Dosimeters
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    Lab Services
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    Radiation Indicators
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    Temperature Indicators
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>Purchase</h5>
+                        <ul class="links-vertical">
+                            <li>
+                                <a href="#pablo">
+                                    How To
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    Pricelist
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    Shipping
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>Library</h5>
+                        <ul class="links-vertical">
+                            <li>
+                                <a href="#pablo">
+                                    Fundamentals
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    Document Library
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    Video Gallery
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>Customer Service</h5>
+                        <ul class="links-vertical">
+                            <li>
+                                <a href="#pablo">
+                                    Support
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- <hr>
+            <div class="copyright pull-center">
+                Copyright &#xA9;
+                <script>
+                    document.write(new Date().getFullYear())
+                </script> GEX Corporation. All Rights Reserved.
+            </div> -->
+        </div>
+    </footer>

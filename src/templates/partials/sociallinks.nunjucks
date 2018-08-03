@@ -1,0 +1,38 @@
+    <!--     *********    BLACK SIMPLE FOOTER WITH SOCIAL AND BRAND     *********      -->
+    <footer class="footer footer-black">
+        <div class="container">
+            <a class="footer-brand" href="#pablo">GEX Corporation</a>
+            <ul class="pull-center">
+                <li>
+                    <a href="./policies.html#cookie">
+                        Cookies Policy
+                    </a>
+                </li>
+                <li>
+                    <a href="./policies.html#privacy">
+                        Privacy Policy
+                    </a>
+                </li>
+                <li>
+                    <a href="./policies.html#terms">
+                        Terms &amp; Conditions
+                    </a>
+                </li>
+
+            </ul>
+            <ul class="social-buttons float-right">
+
+                <li>
+                  <button class="btn btn-link btn-linkedin">
+                      <i class="fa fa-linkedin-square"></i> Connect with Linkedin
+                  </button>
+                </li>
+                <li>
+                  <button class="btn btn-link btn-youtube">
+                      <i class="fa fa-youtube-play"></i> Youtube Channel
+                  </button>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!--     *********   END BLACK SIMPLE FOOTER WITH SOCIAL AND BRAND     *********      -->

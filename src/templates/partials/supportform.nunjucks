@@ -1,0 +1,99 @@
+           <!-- supportform.nunjucks  -->
+
+            <div class="contactus-1" id="support-contact">
+              <div class="col-md-8 ml-auto mr-auto text-center">
+                <h4 class="description">Can't find what you need? Need more assistance? Our staff is here to support you!</h4>
+              </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+
+                            <h2 class="title">Contact GEX Support</h2>
+                            <h5 class="description">Please create a new Support Ticket for prompt service, or contact our staff via email or phone.</h5>
+
+                            <div class="info info-horizontal">
+                                <div class="icon icon-primary">
+                                    <i class="material-icons">mail</i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Send us an email</h4>
+                                    <p> Customer Support Team
+                                        <br> <a href="mailto:cs@gexcorp.com">&rarr;&nbsp;Click here.</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="info info-horizontal">
+                                <div class="icon icon-primary">
+                                    <i class="material-icons">phone</i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Give us a ring</h4>
+                                    <p> Customer Support Team
+                                        <br> +1 303.400.9640
+                                        <br> Mon - Fri, 8:00-16:00
+                                    </p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="col-md-5 ml-auto">
+                            <div class="card card-contact">
+                                <form id="contact-form" method="post">
+                                    <div class="card-header card-header-raised card-header-primary text-center">
+                                        <h4 class="card-title">Create New Support Ticket</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group label-floating is-empty">
+                                                    <label class="bmd-label-floating">First name</label>
+                                                    <input type="text" name="firstname" class="form-control">
+                                                    <span class="material-input"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group label-floating is-empty">
+                                                    <label class="bmd-label-floating">Last name</label>
+                                                    <input type="text" name="lastname" class="form-control">
+                                                    <span class="material-input"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group label-floating is-empty">
+                                                    <label class="bmd-label-floating">Company</label>
+                                                    <input type="text" name="company" class="form-control">
+                                                    <span class="material-input"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group label-floating is-empty">
+                                            <label class="bmd-label-floating">Email address</label>
+                                            <input type="email" name="email" class="form-control">
+                                            <span class="material-input"></span>
+                                        </div>
+                                        <div class="form-group label-floating is-empty">
+                                            <label for="exampleMessage1" class="bmd-label-floating">Your Message</label>
+                                            <textarea name="message" class="form-control" id="exampleMessage1" rows="6"></textarea>
+                                            <span class="material-input"></span>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer justify-content-between">
+                                        <div class="form-check">
+                                            <label class="form-check-label">
+                                                <input class="form-check-input" type="checkbox" value=""> I'm not a robot
+                                                <span class="form-check-sign">
+                                                    <span class="check"></span>
+                                                </span>
+                                            </label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary pull-right">Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end big contact form -->

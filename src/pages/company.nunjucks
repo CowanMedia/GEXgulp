@@ -1,0 +1,195 @@
+<!-- company.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+</head>
+<body class="about-us ">
+
+{% include "partials/navigation.nunjucks" %}
+
+    <div class="page-header header-filter header-small" data-parallax="true" style=" background-image: url('./assets/img/products/silverpackage.jpg');">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8 ml-auto mr-auto text-center">
+                  <h4 class="title">Since 1991, GEX is a single source provider of a complete range of dosimetry products and services for the radiation processing industry. We serve the complete spectrum of gamma, e-beam, and x-ray radiation process applications, such as medical device sterilization, surface decontamination, the curing of inks and coatings, and food irradiation.</h4>
+              </div>
+          </div>
+      </div>
+    </div>
+
+<div class="main main-raised">
+        <div class="container">
+          <!-- ********* three sections ********* -->
+          <div class="section text-center">
+            <div class="features">
+                <div class="row">
+                  <div class="col-md-4">
+                      <div class="info">
+                          <div class="icon icon-danger">
+                            <i class="material-icons">list_alt</i>
+                          </div>
+                          <div class="description">
+                              <h4 class="info-title">Total Quality Assurance</h4>
+                              <p>We maintain a zero defect goal in the manufacture and distribution of our products. </p>
+                              <p>ISO 9001:2015 compliant Quality System.</p>
+                              <!-- <a href="#pricelist">Find more...</a> -->
+                              <a href="./quality.html">Go to...</a>
+                          </div>
+                      </div>
+                  </div>
+
+                    <div class="col-md-4">
+                        <div class="info">
+                            <div class="icon icon-success">
+                              <i class="material-icons">location_on</i>
+                            </div>
+                            <div class="description">
+                                <h4 class="info-title">Company Location</h4>
+                                <p>Location details for our headquarters and manufacturing facility.</p>
+                                <a href="#location">Go to...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info">
+                            <div class="icon icon-info">
+                              <i class="material-icons">group_work</i>
+                            </div>
+                            <div class="description">
+                                <h4 class="info-title">Working with Us</h4>
+                                <p>What to expect when you work with GEX.</p>
+                                <a href="#relationship">Go to...</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+          </div>
+          <!--     *********     END 3 sections     *********      -->
+          <!--     *********     FEATURES 4      *********      -->
+          <div id="location" class="features-4">
+              <div class="col-md-8 ml-auto mr-auto text-center">
+                  <h2 class="title">Our Location</h2>
+              </div>
+              <div class="container">
+
+                      <div class="row">
+                        
+                          <div class="col-sm-4">
+ 
+                                  <h4 class="info-title"> Our Address</h4>
+                                  <p>7330 South Alton Way,</p>
+                                  <p>Suite 12-i</p>
+                                  <p>Centennial, CO 80112 USA</p>
+                                  <a href="tel:13034009640"><h6>Tel: 1 303.400.9640</h6></a>
+  
+                          </div>
+                          <div class="col-sm-8">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196676.48078561304!2d-105.02350813808391!3d39.625627418474245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c85d1aa7f13b9%3A0x8a59474de568925f!2sGEX+Corporation!5e0!3m2!1sen!2sus!4v1532030525983" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                          </div>
+                          </div>
+                
+
+              </div>
+          </div>
+          <!--     *********    END FEATURES 4      *********      -->
+
+
+          <!-- BEGIN SHIPPING section  -->
+          <div id="relationship" class="features-2">
+                          <div class="text-center">
+
+                              <h2 class="title">What GEX Provides to Our Customers</h2>
+                              <h4>Regardless of your application, we can provide a solution to fit your specific requirements. Using the steps below, we can assure our customers get the correct dosimetry solution that meets the requirements of industry and international standards.</h4>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-4 ml-auto">
+                                  <div class="info info-horizontal">
+                                      <div class="icon icon-primary">
+                                        <i class="material-icons">question_answer</i>
+
+                                      </div>
+                                      <div class="description">
+                                          <h4 class="info-title">Step 1: Determine requirements</h4>
+                                          <p>Let GEX help you determine your specific application requirements. </p>
+                                          <h6>
+                                          <a href="pdf/100-124 P8100 Radiation Indicators PSU_C.pdf" target="_blank" >Download Requirements Guide</a>
+                                          </h6>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-md-4 mr-auto">
+                                  <div class="info info-horizontal">
+                                      <div class="icon icon-info">
+                                          <i class="fas fa-tasks"></i>
+                                      </div>
+                                      <div class="description">
+                                          <h4 class="info-title">Step 2: Selection</h4>
+                                          <p>GEX can help you select and compare systems based on your specific requirements.</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-4 ml-auto">
+                                  <div class="info info-horizontal">
+                                      <div class="icon icon-success">
+                                          <i class="fas fa-bolt"></i>
+                                      </div>
+                                      <div class="description">
+                                          <h4 class="info-title">Step 3: Purchase</h4>
+                                          <p>Ensure that you get what you need, when you need it</p>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-md-4 mr-auto">
+                                  <div class="info info-horizontal">
+                                      <div class="icon icon-rose">
+                                        <i class="fas fa-project-diagram"></i>
+
+                                      </div>
+                                      <div class="description">
+                                          <h4 class="info-title">Step 4: Install</h4>
+                                          <p>Understand the important steps when installing a system</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-4 ml-auto">
+                                  <div class="info info-horizontal">
+                                      <div class="icon icon-default">
+                                          <i class="material-icons">timeline</i>
+                                      </div>
+                                      <div class="description">
+                                          <h4 class="info-title">Step 5: Calibration</h4>
+                                          <p>Develop a calibration method specific to the application needs</p>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-md-4 mr-auto">
+                                  <div class="info info-horizontal">
+                                      <div class="icon icon-danger">
+                                        <i class="fas fa-users-cog"></i>
+
+                                      </div>
+                                      <div class="description">
+                                          <h4 class="info-title">Step 6: Use &#38; Maintenance</h4>
+                                          <p>Customer support and training. And understanding how to maintain and what to expect from your system</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                    </div>
+                    <!-- END shipping -->
+    <!-- end sections -->
+    </div>
+    </div>   
+   </div>
+</div>
+
+{% endblock %}
+
+{% include "partials/googlemap.nunjucks" %}
+</body>

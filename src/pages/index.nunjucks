@@ -1,0 +1,164 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+</head>
+<body class="landing-page ">
+
+{% include "partials/navigation.nunjucks" %}
+
+<div class="page-header header-filter header-small" style="background-image: url(&apos;assets/img/bg7.jpg&apos;);">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8 ml-auto mr-auto text-center">
+                  <h1 class="title">Gamma | E-beam | X-ray</h1>
+                 
+                  <h4>Dosimetry for Industrial Radiation Processing</h4>
+
+              </div>
+              <div class="col-md-10 ml-auto mr-auto">
+
+              </div>
+          </div>
+
+
+      </div>
+
+  </div>
+    <div class="main main-raised">
+        <div class="container">
+
+
+            <!-- Product Highlights -->
+            <div class="section text-center">
+
+                <h2 class="title">What We Offer</h2>
+
+                <div class="team">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card card-profile card-plain">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="card-header card-header-image">
+                                            <a href="./dosimeters.html">
+                                                <img class="img" src="./assets/img/products/dosimeter-family.jpg">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Dosimeter Products</h4>
+                                            <h6 class="category text-muted">Routine Use</h6>
+                                            <p class="card-description">
+                                                Our proprietary B3 radiochromic film dosimeter is a superior product choice for most applications and offer a dose range from &lt;1.0 kGy to &gt;150 kGy. Also available: alanine pellets &amp; tubes, and CTA film.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer justify-content-center">
+                                            <a href="./dosimeters.html" class="btn btn-just-icon btn-link btn-info">
+                                              <i class="material-icons">details</i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card card-profile card-plain">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="card-header card-header-image">
+                                            <a href="./systems.html">
+                                                <img class="img" src="./assets/img/products/systemcrop.jpg">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Dosimetry Systems</h4>
+                                            <h6 class="category text-muted">Complete solutions for B3, FWT, CTA, PMMA and Alanine</h6>
+                                            <p class="card-description">
+                                                GEX offers complete dosimetry solutions for radiation processing applications involving gamma, electron beam and X-ray sources of ionizing radiation, with a dose range capability of &lt;10 Gy to 300 kGy.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer justify-content-center">
+                                            <a href="./systems.html" class="btn btn-just-icon btn-link btn-info">
+                                                <i class="material-icons">details</i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card card-profile card-plain">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="card-header card-header-image">
+                                            <a href="./calibrations.html">
+                                                <img class="img" src="./assets/img/products/calibration.jpg">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Calibration Services</h4>
+                                            <h6 class="category text-muted">Dosimeter Batch Calibration Services | GEX International Standards Laboratory</h6>
+                                            <p class="card-description">
+                                                We offer formalized, complete turnkey dosimeter batch calibration services for a wide range of applications. GEX is an international standards laboratory accredited by NVLAP to ISO/IEC 17025:2005 for calibrations and dose measurements for ionizing radiation for high-dose dosimetry in the range 0.25 kGy to 100 kGy.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer justify-content-center">
+                                            <a href="./calibrations.html" class="btn btn-just-icon btn-link btn-info">
+                                                <i class="material-icons">details</i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card card-profile card-plain">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="card-header card-header-image">
+                                            <a href="./indicators.html">
+                                                <img class="img" src="./assets/img/products/radiationindicators.jpg">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Radiation Indicators</h4>
+                                            <h6 class="category text-muted">Type 1 process chemical indicators</h6>
+                                            <p class="card-description">
+                                                ideal for maintaining inventory and quality control, GEX Radiation Indicators are Type 1 process chemical indicators, and exhibit an obvious, visual color change when exposed to radiation.
+                                            </p>
+                                        </div>
+                                        <div class="card-footer justify-content-center">
+                                            <a href="./indicators.html" class="btn btn-just-icon btn-link btn-info">
+                                                <i class="material-icons">details</i>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- end product highlights -->
+            <hr>
+{% include "partials/contactform.nunjucks" %}
+   </div>
+</div>
+{% include "partials/newsletter.nunjucks" %}
+{% endblock %}
+</body>

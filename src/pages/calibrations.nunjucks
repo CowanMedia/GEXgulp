@@ -1,0 +1,248 @@
+<!-- calibration.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+</head>
+<body class="about-us ">
+
+{% include "partials/navigation.nunjucks" %}
+
+<div class="page-header header-filter header-small" data-parallax="true" style=" background-image: url('./assets/img/background_greygrid.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto text-center">
+                    <h1 class="title">Calibration Services</h1>
+                    <h6>Complete laboratory and batch calibration services for a wide range of applications.  </h6>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main main-raised">
+        <div class="container">
+          <!--     *********     FEATURES 2      *********      -->
+<div class="features-2">
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="info info-horizontal">
+                <div class="icon icon-info">
+                    <i class="material-icons">group_work</i>
+                </div>
+                <div class="description">
+                    <h4 class="info-title">Dosimeter Batch Calibration Services</h4>
+                    <p>Formalized, complete, turnkey dosimeter batch calibration services for a wide range of applications. GEX calibration services conform to current recommended calibration methods published in industry standards, guides and practices.</p>
+                    <a href="#cal-services">Find out more...</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="info info-horizontal">
+                <div class="icon icon-success">
+                    <i class="fas fa-bullseye"></i>
+                </div>
+                <div class="description">
+                    <h4 class="info-title">GEX Laboratory </h4>
+                    <p>GEX Laboratory can provide customers with certified traceable national standard transfer alanine dosimeter doses for a 0.5 kGy to 80 kGy dose range, traceable to NIST (or NPL).</p>
+                    <a href="#lab-services">Find out more...</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="info info-horizontal">
+                <div class="icon icon-primary">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="description">
+                    <h4 class="info-title">Other Lab Services</h4>
+                    <p>GEX can assist you with a variety of calibration lab services, and can coordinate with any laboratory worldwide.</p>
+                    <!-- <ul>
+                      <li>Alanine Pellet Transfer Dosimeters for In-Plant Calibration</li>
+                      <li>Alanine Film Transfer Dosimeters of for In-Plant Calibration (for low energy applications)</li>
+                      <li>Calibration Laboratory Gamma Dose Point</li>
+                      <li>10MeV Electron Beam Calibration Dose Point</li>
+                    </ul> -->
+                    <a href="#other-services">Find out more...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--     *********     Details Section      *********      -->
+<div class="blogs-1" id="blogs-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 ml-auto mr-auto">
+              <!-- Calibration Services  -->
+                <div id="cal-services"  class="card card-plain card-blog">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="card-header card-header-image">
+                                <a href="#pablito">
+                                    <img class="img" src="./assets/img/products/calibration-graph.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="card-title">
+                                Dosimeter Batch Calibration Services
+                            </h3>
+                            <h6>What is dosimetry system batch calibration, and why is this necessary?</h6>
+                            <p class="card-description">
+                              Dosimetry batch calibration is the process where the response of a dosimetry system is characterized through comparison with a traceable reference (standard). The calibration method for the dosimetry system is designed to ensure the integrity of the measurements made with the user’s dosimetry system.
+                              <p class="card-description">Dosimetry systems must be calibrated for each batch of dosimeters. In addition, a separate calibration is required for each measurement instrument.</p>
+                              <p class="card-description">All dosimetry systems must be calibrated traceable to a national or international standard. Dosimeter manufacturers may provide response functions on their websites or in product literature, but these are for general information only. Therefore, the end-user must calibrate the measurement system as a whole (the dosimetry system) and ensure that the calibration is suitable for the conditions of use.</p>
+                              <p class="card-description">Routine dosimetry systems should be calibrated in accordance with the requirements of ISO/ASTM 51261. Reference dosimetry systems should be calibrated in a manner to meet the requirements of ISO 17025.</p>
+
+                              <h6>ISO/ASTM Methods</h6>
+                              <p class="card-description">
+                                GEX uses formalized calibration procedures to assure highly reproducible results from calibration to calibration. We perform dozens of calibrations and fit hundreds of calibration curves each year. Our full turnkey calibration service package allows a user to follow either of the two ISO/ASTM 51261 currently recommended calibration methods.
+                                <ul>
+                                  <li>Laboratory calibration performed at a certified high dose calibration laboratory with in-situ (in-plant) calibration verification.</li>
+                                  <li>Full in-plant calibration using reference transfer standard dosimeters.</li>
+                                </ul>
+                              </p>
+
+                            <p class="card-description">
+                              GEX calibration services conform to current recommended calibration methods published in industry standards, guides and practices. Includes:
+                              <ul>
+                                <li>Standardized protocols with formal procedures</li>
+                                <li>Dose traceability to national standards</li>
+                                <li>Standard calibration phantom holders</li>
+                                <li>In-stock reference transfer standard alanine dosimeters</li>
+                                <li>Validated software designed specifically for calibration applications</li>
+                                <li>Calibration specialty products</li>
+                                <li>Calibration specific automated dosimetry software</li>
+                                <li>Expert consulting</li>
+                              </ul>
+                            </p>
+                            <h6>
+                            <a class="btn btn-info btn-just-icon" href="pdf/100-141_A S1101 and S1102 GEX Calibration Service and Audit Package.pdf" target="_blank" role="button"><i class="fas fa-file-download fa-sm"></i></a>
+
+                              &nbsp;&nbsp;Product Information Sheet PDF
+
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <!-- GEX Lab -->
+                <div id="lab-services" class="card card-plain card-blog">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h3 class="card-title">
+                                GEX Laboratory Transfer Alanine Doses Traceable to NIST
+                            </h3>
+                            <p class="card-description">
+                              GEX Laboratory can provide customers with certified traceable national standard transfer alanine dosimeter doses for a 0.5 kGy to 80 kGy dose range, traceable to NIST (or NPL). Doses provided by GEX Laboratory can be used to calibrate both reference and routine dosimetry systems, as well as establishing a certified traceable dose rates used to characterize radiation fields produced by gamma ray, X-ray or electron beam sources.</p>
+                              <p class="card-description">Description and sample of report provided to customer.</p>
+                              <hr>
+                              <h6>Accreditation</h6>
+                              <p class="card-description">GEX is an international standards laboratory accredited by NVLAP to ISO/IEC 17025:2005 for calibrations and dose measurements for ionizing radiation for high-dose dosimetry in the range 0.25 kGy to 100 kGy.</p>
+                              <ul>
+                                <li>NVLAP Lab Code: 600080-0 </li>
+                                <li>Effective dates: 2018/04/02 through 2019/03/31</li>
+                              </ul>
+                              <hr>
+                              <h6>Accreditation documents:</h6>
+                              <ul>
+
+                                <li><a class="btn btn-info btn-just-icon" href="pdf/600080-0 Final scope 2018-04-02.pdf" target="_blank" role="button"><i class="fas fa-file-download fa-sm"></i></a>
+
+                                  &nbsp;&nbsp;Scope of Accreditation PDF file
+                                </li>
+                                <li>
+                                  <a class="btn btn-info btn-just-icon" href="images/FinalScope2018_Page1.png" target="_blank" role="button"><i class="fas fa-file-download fa-sm"></i></a> &nbsp;&nbsp;Scope of Accreditation .png file (Page 1)
+                                </li>
+                                <li>
+                                  <a class="btn btn-info btn-just-icon" href="images/FinalScope2018_Page2.png" target="_blank" role="button"><i class="fas fa-file-download fa-sm"></i></a> &nbsp;&nbsp;Scope of Accreditation .png file (Page 2)
+                                </li>
+                                <li><a class="btn btn-info btn-just-icon" href="pdf/AccreditationCertificate6000802018.pdf" target="_blank" role="button"><i class="fas fa-file-download fa-sm"></i></a>
+                                  &nbsp;&nbsp;Accreditation Certificate PDF file </li>
+                                <li>
+                                  <a class="btn btn-info btn-just-icon" href="images/AccreditationCertificate2018_6000800.png" target="_blank" role="button"><i class="fas fa-file-download fa-sm"></i></a>
+                                    &nbsp;&nbsp;Accreditation Certificate .png file </li>
+                                <li>Or visit NIST website and type NVLAP Lab Code "600080-0" into search.
+                                <a href="https://www-s.nist.gov/niws/index.cfm?event=directory.search#no-back" target="_blank"><br>Go to NIST Website...</a></li>
+                              </ul>
+                            </p>
+
+                        </div>
+                        <div class="col-md-5">
+                            <div class="card-header card-header-image">
+                                <img class="img img-raised" src="assets/img/office/evo-lab.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+                <!-- Other Lab -->
+                <div id="other-services"  class="card card-plain card-blog">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="card-header card-header-image">
+                                <a href="#pablito">
+                                    <img class="img" src="./assets/img/office/handshake.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <h3 class="card-title">
+                                Other Calibration Laboratory Services
+                            </h3>
+                            <p class="card-description">
+                              We can coordinate with any international standards laboratory:
+                              <ul>
+                                <li><a href="#other-services">GEX Laboratory</a></li>
+                                <li>NPL - National Physical Laboratory - England</li>
+                                <li>NIST - National Institutes of Science and Technology - Washington DC</li>
+                                <li>MDS Nordion - Canada</li>
+                                <li>Risø National Laboratory - Denmark</li>
+                              </ul>
+                            </p>
+                <hr>
+                            <p class="card-description">Services offered...</p>
+
+                                    <p class="card-description">
+                                      <ul class="list-group">
+                                        <li class="list-group-item">S1000 Alanine Pellet Transfer Dosimeters for In-Plant Calibration</li>
+                                        <li class="list-group-item">S1000L Alanine Film Transfer Dosimeters of for In-Plant Calibration (for low energy applications)</li>
+                                        <li class="list-group-item">S1001	Calibration Laboratory Gamma Dose Point</li>
+                                        <li class="list-group-item">S1002	10MeV Electron Beam Calibration Dose Point</li>
+                                      </ul>
+                            </p>
+                            <hr>
+
+                            <h6>
+                            <a class="btn btn-info btn-just-icon" href="pdf/100-141_A S1101 and S1102 GEX Calibration Service and Audit Package.pdf" target="_blank" role="button"><i class="fas fa-file-download fa-sm"></i></a>
+
+                              &nbsp;&nbsp;Product Information Sheet PDF
+
+                            </h6>
+                                    <!-- <p class="card-description">Calibration Service and Audit Package (S1101/S1102) - <a href="pdf/100-141_A S1101 and S1102 GEX Calibration Service and Audit Package.pdf" target="_blank">Product Information Sheet PDF</a>
+                                    </p> -->
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- end other lab details -->
+            </div>
+        </div>
+    </div>
+</div>
+<!--     *********    end Details Section      *********      -->
+
+
+        </div>
+    </div>
+
+
+
+{% endblock %}
+
+</body>
