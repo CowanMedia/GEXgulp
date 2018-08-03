@@ -1,0 +1,353 @@
+<!-- layout.nunjucks -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head.nunjucks -->
+<head>
+  <meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="description" content="GEX specializes in dosimeter products, dosimetry systems and radiation indicators for the radiation processing industry.">
+<meta name="keywords" content="dosimeters, dosimetry, radiation, irradiation, electron beam, e-beam, gamma, x-ray, dose measurement, medical device, sterilization, crosslinking, curing, indicators, radiation indicators, calibration, quality control, quality assurance">
+
+<!-- Favicons -->
+    <link rel="apple-touch-icon" href="./assets/img/apple-icon.png">
+    <link rel="icon" href="./assets/img/favicon.png">
+    <title>
+        GEX Corporation - the Dosimetry Company
+    </title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-31720310-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-31720310-1');
+    </script>
+
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./assets/css/material-kit.css?v=2.0.3">
+
+
+    <!-- CSS  -->
+    <link href="./assets/css/vertical-nav.css" rel="stylesheet" />
+    <link href="./assets/css/custom.css" rel="stylesheet" />
+
+    <!-- cookie banner -->
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#edeff5",
+          "text": "#838391"
+        },
+        "button": {
+          "background": "#4b81e8"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This site uses cookies to deliver some of our services, as well as to provide users with the best experience. By using our site, you acknowledge that you have read and understand our Privacy Policy, our Cookie Policy, and our Terms of Service.",
+        "link": "Learn More...",
+        "href": "./policies.html"
+      }
+    })});
+    </script>
+
+
+
+
+
+</head>
+<body class="about-us ">
+
+<!-- navigation.nunjucks -->
+<nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
+      <div class="container">
+          <div class="navbar-translate">
+              <a href="./index.html"><img src="./assets/img/logos/logo.png" alt="logo" class="img-fluid"></a>
+              <a class="navbar-brand" href="./index.html">GEX Corporation</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  <span class="navbar-toggler-icon"></span>
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+          </div>
+          <div class="collapse navbar-collapse">
+              <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a href="./company.html" class="nav-link">
+                        Company
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./support.html" class="nav-link">
+                        Customer Support
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="./purchase.html" class="nav-link">
+                        Purchase
+                    </a>
+                </li>
+
+                <!-- dropdown -->
+                <li class="dropdown nav-item">
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                            Products
+                        </a>
+                        <div class="dropdown-menu dropdown-with-icons">
+                            <a href="./systems.html" class="dropdown-item">
+                                <i class="material-icons">horizontal_split</i> Dosimetry Systems
+                            </a>
+                            <a href="./dosimeters.html" class="dropdown-item">
+                                <i class="material-icons">dashboard</i> Dosimeters
+                            </a>
+                            <a href="./indicators.html" class="dropdown-item">
+                                <i class="material-icons">picture_in_picture</i> Radiation Indicators
+                            </a>
+                            <a href="./temperature.html" class="dropdown-item">
+                                <i class="material-icons">warning</i> Temperature Indicators
+                            </a>
+                            <a href="./calibrations.html" class="dropdown-item">
+                                <i class="material-icons">timeline</i> Calibrations
+                            </a>
+
+                        </div>
+                    </li>
+                    <!-- end dropdown -->
+                    <!-- dropdown -->
+                    <li class="dropdown nav-item">
+                            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                                Library
+                            </a>
+                            <div class="dropdown-menu dropdown-with-icons">
+                                <a href="./faq.html" class="dropdown-item">
+                                    <i class="material-icons">info</i> Fundamentals
+                                </a>
+                                <a href="./doclibrary.html" class="dropdown-item">
+                                    <i class="material-icons">view_list</i> Document Library
+                                </a>
+                                <a href="./videolibrary.html" class="dropdown-item">
+                                    <i class="material-icons">video_library</i> Video Gallery
+                                </a>
+
+                            </div>
+                        </li>
+                        <!-- end dropdown -->
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+
+
+
+<!--     *********    LARGE FOOTER     *********      -->
+    <footer class="footer footer-white footer-big">
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                  <div class="col-md-2">
+                      <h5>About Us</h5>
+                      <p>GEX is the industry’s single source for all your dosimetry-related needs. You can expect the highest quality products and unsurpassed customer service.</p>
+                  </div>
+                    <div class="col-md-2">
+                        <h5>Company</h5>
+                        <ul class="links-vertical">
+                            <li>
+                                <a href="#pablo">
+                                    Who We Are
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    What We Do
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    Quality
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    Events | Trainings
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>Products</h5>
+                        <ul class="links-vertical">
+                            <li>
+                                <a href="#pablo">
+                                    Dosimetry Systems
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    Dosimeters
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    Lab Services
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    Radiation Indicators
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    Temperature Indicators
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>Purchase</h5>
+                        <ul class="links-vertical">
+                            <li>
+                                <a href="#pablo">
+                                    How To
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    Pricelist
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    Shipping
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>Library</h5>
+                        <ul class="links-vertical">
+                            <li>
+                                <a href="#pablo">
+                                    Fundamentals
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    Document Library
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    Video Gallery
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>Customer Service</h5>
+                        <ul class="links-vertical">
+                            <li>
+                                <a href="#pablo">
+                                    Support
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#pablo">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- <hr>
+            <div class="copyright pull-center">
+                Copyright &#xA9;
+                <script>
+                    document.write(new Date().getFullYear())
+                </script> GEX Corporation. All Rights Reserved.
+            </div> -->
+        </div>
+    </footer>
+    <!--     *********    BLACK SIMPLE FOOTER WITH SOCIAL AND BRAND     *********      -->
+    <footer class="footer footer-black">
+        <div class="container">
+            <a class="footer-brand" href="#pablo">GEX Corporation</a>
+            <ul class="pull-center">
+                <li>
+                    <a href="./policies.html#cookie">
+                        Cookies Policy
+                    </a>
+                </li>
+                <li>
+                    <a href="./policies.html#privacy">
+                        Privacy Policy
+                    </a>
+                </li>
+                <li>
+                    <a href="./policies.html#terms">
+                        Terms &amp; Conditions
+                    </a>
+                </li>
+
+            </ul>
+            <ul class="social-buttons float-right">
+
+                <li>
+                  <button class="btn btn-link btn-linkedin">
+                      <i class="fa fa-linkedin-square"></i> Connect with Linkedin
+                  </button>
+                </li>
+                <li>
+                  <button class="btn btn-link btn-youtube">
+                      <i class="fa fa-youtube-play"></i> Youtube Channel
+                  </button>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!--     *********   END BLACK SIMPLE FOOTER WITH SOCIAL AND BRAND     *********      -->
+   <!-- endscripts.nunjucks -->
+   <!--   Core JS Files   -->
+    <script src="./assets/js/core/jquery.min.js"></script>
+    <script src="./assets/js/core/popper.min.js"></script>
+    <script src="./assets/js/bootstrap-material-design.js"></script>
+    
+    <!--  Plugin for Date Time Picker and Full Calendar Plugin  -->
+    <script src="./assets/js/plugins/moment.min.js"></script>
+    <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+    <script src="./assets/js/plugins/bootstrap-datetimepicker.min.js"></script>
+    <!--	Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script src="./assets/js/plugins/nouislider.min.js"></script>
+    <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+    <script src="./assets/js/plugins/bootstrap-selectpicker.js"></script>
+    <!--	Plugin for Tags, full documentation here: http://xoxco.com/projects/code/tagsinput/  -->
+    <script src="./assets/js/plugins/bootstrap-tagsinput.js"></script>
+    <!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+    <script src="./assets/js/plugins/jasny-bootstrap.min.js"></script>
+    <!--	Plugin for Small Gallery in Product Page -->
+    <script src="./assets/js/plugins/jquery.flexisel.js"></script>
+
+    <script src="./assets/js/vertical-nav.js"></script>
+    <!-- Material Kit Core initialisations of plugins and Bootstrap Material Design Library -->
+    <script src="./assets/js/material-kit.js?v=2.0.3"></script>
+
+
+
+
+</html>
