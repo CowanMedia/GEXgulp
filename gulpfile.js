@@ -23,9 +23,9 @@ const AUTOPREFIXER_BROWSERS = [
 ];
 
 
-gulp.task('message', function(){
-    return console.log('Gulp is running...');
-  });
+// gulp.task('message', function(){
+//     return console.log('Gulp is running...');
+//   });
 
 // Copy All HTML files
 gulp.task('copyHtml', function(){
@@ -83,8 +83,19 @@ gulp.task('styles', function () {
     // output files in folder
     .pipe(gulp.dest('dist'))
   });
+
+  gulp.task('webserver', function() {
+    // Gets .html and .nunjucks files in pages
+    return gulp.src('dist')
+    // Renders template with nunjucks
+    .pipe(nunjucksRender({
+        path: ['src/templates']
+      }))
+    // output files in folder
+    .pipe(gulp.dest('dist'))
+  });
   
-  gulp.task('default', ['message', 'copyHtml', 'imageMin', 'styles', 'scripts', 'nunjucks']);
+  gulp.task('default', ['copyHtml', 'imageMin', 'styles', 'scripts', 'nunjucks']);
   
   gulp.task('watch', function(){
     gulp.watch('src/assets/js/*.js', ['scripts']);
