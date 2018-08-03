@@ -2,7 +2,7 @@
   "name": "gexgulp",
   "version": "1.0.0",
   "description": "Example using Gulp",
-
+  "main": "index.js",
   "author": "mjcowan",
   "license": "ISC",
   "devDependencies": {
@@ -15,6 +15,11 @@
     "gulp-nunjucks-render": "^2.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^2.1.2"
-
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "/node_modules/.bin/gulp",
+    "build": "./node_modules/.bin/gulp build",
+    "start": "./node_modules/.bin/gulp dev"
   }
 }
